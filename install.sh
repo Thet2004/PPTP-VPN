@@ -66,4 +66,9 @@ sudo echo "$username * $password *" >> /etc/ppp/chap-secrets
 # Restarting Service 
 sudo service pptpd restart
 
-echo "All done!"
+echo "${G}=========================================${R}"
+echo "PPTP script By Thet Htoo Swe"
+echo "server ip address: $ip"
+echo ""
+echo "user = $username   pass = $password"
+echo "${G}=========================================${R}"
